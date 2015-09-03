@@ -4,6 +4,15 @@ mod 'puppet-profiles',
 mod 'puppet-roles',
   :git => 'https://github.com/rmacduff/puppet-roles.git'
 
+mod 'dmcnicks-mandrill',
+  :git    => 'https://github.com/rmacduff/dmcnicks-mandrill.git',
+  :branch => 'relayhost_port'
+
+mod 'rdm_fw',
+  :git => 'https://github.com/rmacduff/rdm_fw.git'
+
+mod 'puppetlabs/firewall'
+
 mod 'saz/sudo'
 
 mod 'jfryman/nginx'
@@ -17,9 +26,5 @@ mod 'proletaryo/supervisor'
 mod 'puppetlabs/stdlib'
 
 mod 'puppetlabs/concat'
-
-mod 'dmcnicks-mandrill',
-  :git    => 'https://github.com/rmacduff/dmcnicks-mandrill.git',
-  :branch => 'relayhost_port'
 
 mod 'saz/ssh'
