@@ -1,30 +1,28 @@
-mod 'puppet-profiles',
-  :git => 'https://github.com/rmacduff/puppet-profiles.git'
-
-mod 'puppet-roles',
-  :git => 'https://github.com/rmacduff/puppet-roles.git'
-
-mod 'dmcnicks-mandrill',
-  :git    => 'https://github.com/rmacduff/dmcnicks-mandrill.git',
-  :branch => 'relayhost_port'
-
+# Custom modules
 mod 'rdm_fw',
   :git => 'https://github.com/rmacduff/rdm_fw.git'
 
+mod 'postfix_rdm',
+  :git => 'https://github.com/rmacduff/postfix_rdm.git'
+
+# Core modules
 mod 'puppetlabs/firewall'
 
 mod 'saz/sudo'
 
-mod 'jfryman/nginx'
-
 mod 'treydock/gpg_key'
   
-mod 'andschwa/ghost'
-
-mod 'proletaryo/supervisor'
-
 mod 'puppetlabs/stdlib'
 
 mod 'puppetlabs/concat'
 
 mod 'saz/ssh'
+
+# Sensu dependencies
+mod 'sensu/sensu'
+
+mod 'dwerder/redis'
+
+mod 'puppetlabs/rabbitmq'
+
+mod 'yelp/uchiwa'
