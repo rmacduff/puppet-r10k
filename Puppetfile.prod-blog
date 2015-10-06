@@ -35,3 +35,5 @@ mod 'puppet-ghost',
 #mod 'andschwa/ghost'
 
 mod 'proletaryo/supervisor'
+
+mod 'jfryman/nginx'
